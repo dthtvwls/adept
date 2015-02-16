@@ -1,0 +1,58 @@
+@import url('//cdn.rawgit.com/mleibman/SlickGrid/2.1/slick.grid.css');
+@import url('//cdn.rawgit.com/mleibman/SlickGrid/2.1/examples/examples.css');
+@import url('//cdn.rawgit.com/hirokiosame/search.js/0.4.0/lib/css/reset.css');
+@import url('//cdn.rawgit.com/hirokiosame/search.js/0.4.0/lib/css/icons.css');
+@import url('//cdn.rawgit.com/hirokiosame/search.js/master/lib/css/workspace.css');
+@import url('//cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.4.33/example3/colorbox.min.css');
+@import url('//cdnjs.cloudflare.com/ajax/libs/selectize.js/0.11.2/css/selectize.bootstrap2.min.css');
+
+html, body, #myGrid {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: 0;
+  clear: both;
+}
+
+#contextMenu {
+  position: absolute;
+  z-index: 100;
+  background: white;
+  padding: 10px;
+  border: 1px outset #eee;
+}
+
+#chart {
+  /* these percentages are irritatingly inexact but will have to make do for now */
+  width: 97%;
+  height: 95%;
+}
+
+#VS-container {
+  float: left;
+  width: 70%;
+}
+
+.VS-search .VS-search-box {
+  background: white;
+  padding: 3px 0;
+  border-width: 1px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+.VS-search .VS-icon {
+  top: 11px;
+}
+.VS-search .VS-placeholder {
+  top: 10px;
+}
+
+.custom-select {
+  float: left;
+  width: 30%;
+  margin-bottom: -2px;
+}
+
+.slick-header-sortable {
+  cursor: pointer;
+}

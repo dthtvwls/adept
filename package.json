@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "dependencies": {
+    "coffee-script": "*",
+    "express": "*"
+  },
+  "scripts": {
+    "start": "coffee server.coffee"
+  }
+}
