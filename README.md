@@ -1,6 +1,8 @@
 Adept
 =====
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dthtvwls/adept.svg)](https://greenkeeper.io/)
+
 This is a JavaScript app that loads giant (1M+) data sets into the browser for dynamic analysis and charting.
 
 How to use
